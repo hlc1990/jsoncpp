@@ -5,6 +5,7 @@
 
 #ifndef CPPTL_JSON_H_INCLUDED
 # define CPPTL_JSON_H_INCLUDED
+#error This file should never be included.  It is overridden by Chromium.
 
 #if !defined(JSON_IS_AMALGAMATION)
 # include "forwards.h"
