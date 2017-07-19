@@ -284,6 +284,11 @@ StyledWriter::StyledWriter()
 }
 
 
+StyledWriter::~StyledWriter()
+{
+}
+
+
 std::string 
 StyledWriter::write( const Value &root )
 {
@@ -557,6 +562,11 @@ StyledStreamWriter::StyledStreamWriter( std::string indentation )
    , rightMargin_( 74 )
    , indentation_( indentation )
    , addChildValues_()
+{
+}
+
+
+StyledStreamWriter::~StyledStreamWriter()
 {
 }
 

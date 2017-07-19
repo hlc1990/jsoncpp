@@ -108,6 +108,11 @@ Reader::Reader( const Features &features )
 }
 
 
+Reader::~Reader()
+{
+}
+
+
 bool
 Reader::parse( const std::string &document, 
                Value &root,
